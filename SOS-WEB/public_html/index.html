@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 
 <html>
+
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SOS-web</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,100' rel='stylesheet' type='text/css'>
+        <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <link href='https://www.google.com/fonts#UsePlace:use/Collection:Oswald' rel='stylesheet' type='text/css'>
+        <link href='https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Fjalla+One' rel='stylesheet' type='text/css'>
+        <link href="css/main.css" rel="stylesheet">
+        <script src="js/main.js" type="text/javascript"></script>   
+        <!--[if lt IE 9]>
+          <link href="css/ie-main.css" rel="stylesheet">
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
     </head>
-    <body>
-        <div>TODO write content</div>
+    <body class="body">
+        <header class="header">
+            <div class="row">
+                <div class="col-lg-offset-1 col-lg-4">
+                    <figure>
+                        <a href="" class="sos">
+                            <img class="redondo" src="img/logo.png" alt="" /> SOS
+                        </a> 
+                    </figure>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="col-lg-offset-3"> 
+                        <ul class="nav nav-pills">
+                            <li ><a href="#uno">inicio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li ><a href="#contactanos">Contactanos</a></li>
+                            <li ><a id="login" href="">Login</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <section id="uno">
+            <div class="opacidad"></div>
+            <div class="box-center">
+                <div class="row titulo"><h1>LA IDEA</h1></div>
+               <div class="row">
+                    <p>UN PROBLEMA + UN SUPEREQUIPO  + UN GRAN EVENTO FUE LA ESENCIA QUE LE DIO VIDA A UNA  NOVEDOSA Y AGIL APLICACION </p><br><br>
+                    <p><strong>¿ QUE ES SOS?</strong></p><br>
+                    
+                    <p>SOS.- ES UN APPS DONDE SI TIENES UNA EMERGENCIA PUEDES RECIBIR AYUDA CON TAN SOLO UNOS SENCILLOS PASOS.</p>
+                        
+               </div>
+                     
+            </div>
+
+        </section>
+        <section id="servicios">
+            <div class="opacidad"></div>
+            <div class="box-center">
+                <div class="row titulo saltolinea"><h1>SERVICIOS</h1></div>
+                <div class="row">
+                    <div class="col-md-3 ">
+                        <img class="rectangular " src="img/Electricista.jpg" alt="" />
+                        <div class="pie">ELECTRICOS</div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <img class="rectangular " src="img/Medico.jpg" alt="" />
+                        <div class="pie">MEDICOS</div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <img class="rectangular " src="img/plomero.jpg" alt="" />
+                        <div class="pie">PLOMERIA</div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class=""><img class="rectangular " src="img/mecanica.jpg" alt="" /></div>
+                        <div class="pie">MECANICA</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+       
+        <section id="contactanos" >
+		<div class="opacidad"></div>
+		<div class="content">
+			<form class="box-center">
+				<h1>Contáctanos</h1>
+				<input type="text" placeholder="Nombre">
+				<input type="text" placeholder="Correo">
+				<input type="text" placeholder="Teléfono">
+				<button>Enviar</button>
+			</form>
+		</div>
+	</section>
     </body>
+
 </html>
